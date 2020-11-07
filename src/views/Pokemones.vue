@@ -1,8 +1,8 @@
 <template>
   <div>
     <Titulo texto="Lista de Pokemones" />
-    <div v-for="item in pokemonList" :key="item">
-      {{ item.name }}
+    <div v-for="(item, index) in pokemonList" :key="item">
+      <router-link :to="`/pokemones/${index + 1}`">{{ item.name }}</router-link>
     </div>
   </div>
 </template>
