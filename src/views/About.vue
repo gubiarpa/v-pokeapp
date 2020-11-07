@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <p>Ésta es una pequeña aplicación web para ver los 150 pokemones</p>
   </div>
 </template>
